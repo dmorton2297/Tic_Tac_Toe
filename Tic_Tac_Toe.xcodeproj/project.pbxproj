@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0EA9CC1B45E72000136A04 /* ComputerAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0EA9CB1B45E72000136A04 /* ComputerAI.swift */; };
+		5C0EA9CE1B45E9CB00136A04 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0EA9CD1B45E9CB00136A04 /* Tree.swift */; };
 		5CFC3DDA1B441EBE0011C7C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC3DD91B441EBE0011C7C8 /* AppDelegate.swift */; };
 		5CFC3DDC1B441EBE0011C7C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC3DDB1B441EBE0011C7C8 /* ViewController.swift */; };
 		5CFC3DDF1B441EBE0011C7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFC3DDD1B441EBE0011C7C8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C0EA9CB1B45E72000136A04 /* ComputerAI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerAI.swift; sourceTree = "<group>"; };
+		5C0EA9CD1B45E9CB00136A04 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		5CFC3DD61B441EBE0011C7C8 /* Tic_Tac_Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tic_Tac_Toe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFC3DD91B441EBE0011C7C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CFC3DDB1B441EBE0011C7C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +103,12 @@
 			children = (
 				5CFC3DD91B441EBE0011C7C8 /* AppDelegate.swift */,
 				5CFC3DDB1B441EBE0011C7C8 /* ViewController.swift */,
+				5C0EA9CB1B45E72000136A04 /* ComputerAI.swift */,
 				5CFC3DDD1B441EBE0011C7C8 /* Main.storyboard */,
 				5CFC3DE01B441EBE0011C7C8 /* Assets.xcassets */,
 				5CFC3DE21B441EBE0011C7C8 /* LaunchScreen.storyboard */,
 				5CFC3DE51B441EBE0011C7C8 /* Info.plist */,
+				5C0EA9CD1B45E9CB00136A04 /* Tree.swift */,
 			);
 			path = Tic_Tac_Toe;
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0EA9CC1B45E72000136A04 /* ComputerAI.swift in Sources */,
+				5C0EA9CE1B45E9CB00136A04 /* Tree.swift in Sources */,
 				5CFC3DDC1B441EBE0011C7C8 /* ViewController.swift in Sources */,
 				5CFC3DDA1B441EBE0011C7C8 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +491,7 @@
 				5CFC3E001B441EBE0011C7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFC3E011B441EBE0011C7C8 /* Build configuration list for PBXNativeTarget "Tic_Tac_ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				5CFC3E031B441EBE0011C7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFC3E041B441EBE0011C7C8 /* Build configuration list for PBXNativeTarget "Tic_Tac_ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				5CFC3E061B441EBE0011C7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
