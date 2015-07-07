@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("HGelo")
     }
     
     @IBAction func userTapped(sender: UITapGestureRecognizer) {
